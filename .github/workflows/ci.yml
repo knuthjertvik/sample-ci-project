@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests with coverage
-        run: npm test -- --coverage
+        run: npm test --coverage
       - name: Upload coverage report
         uses: actions/upload-artifact@v2
         with:
